@@ -55,3 +55,71 @@ All visuals are dynamically rendered and presented through a web-based interface
 | Visualization | Flask, Plotly, Dash |
 | Environment | Jupyter Notebook, VSCode |
 
+
+---
+
+## 🚀 How to Run This Project Locally
+
+### 📁 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/analytics-data-viz-project.git
+cd analytics-data-viz-project
+```
+
+### 🐍 2. Create a Virtual Environment
+```bash
+python -m venv venv
+```
+
+- For **Windows**:
+  ```bash
+  venv\Scripts\activate
+  ```
+
+- For **macOS/Linux**:
+  ```bash
+  source venv/bin/activate
+  ```
+
+### 📦 3. Install the Required Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 🔧 4. Run the Flask App
+```bash
+cd app
+python flask_app.py
+```
+
+### 🌐 5. View the Dashboard
+
+Open your browser and go to:
+
+```
+http://localhost:5000
+```
+
+---
+
+## 🔮 Future Improvements
+
+- 🌐 Integrate satellite and IoT-based environmental data sources  
+- 🔁 Add LSTM deep learning models for time series forecasting  
+- ☁️ Deploy the Flask app online via **Heroku**, **Render**, or similar platforms  
+- 🎨 Enhance dashboard UX/UI using user feedback and design upgrades  
+
+---
+
+## 👤 Author
+
+**Atmuri Satya Prakash**  
+
+---
+
+## 🤝 Acknowledgements
+
+- [Open AQ](https://openaq.org/)  
+- [Open Meteo](https://open-meteo.com/)  
+- [World Bank Open Data](https://data.worldbank.org/)
+```
