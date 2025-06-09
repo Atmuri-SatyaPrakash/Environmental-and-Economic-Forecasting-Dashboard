@@ -1,0 +1,7 @@
+dash
+pymongo
+requests
+psycopg2
+pandas
+scikit-learn
+plotly
